@@ -2,13 +2,10 @@
 
 using namespace std;
 int main(){
-    int a=10;
-    switch(a)
-    {
-        case 9: a++;
-        case 10: a++;
-        case 11: a++;
-        default: a++;
-    }
-    cout << a;
+    int x=3, y;
+    do{ y=x--;
+        if(!y)
+        { cout<<"x"; continue; }
+        cout<<"#";
+    }while(1<=x<=2);
 }
