@@ -1,5 +1,14 @@
 #include <iostream>
 
+using namespace std;
 int main(){
-    int m[][3] = {1,2,3,4,5,6,7,8,9};
+    int a=10;
+    switch(a)
+    {
+        case 9: a++;
+        case 10: a++;
+        case 11: a++;
+        default: a++;
+    }
+    cout << a;
 }
