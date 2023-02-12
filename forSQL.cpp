@@ -2,10 +2,6 @@
 
 using namespace std;
 int main(){
-    int x=3, y;
-    do{ y=x--;
-        if(!y)
-        { cout<<"x"; continue; }
-        cout<<"#";
-    }while(1<=x<=2);
+    int n=0;
+    while(n++<=2); cout<<n<<endl;
 }
